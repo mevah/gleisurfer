@@ -25,7 +25,7 @@ mesh = o3d.geometry.TriangleMesh.create_from_point_cloud_ball_pivoting(pcd, o3d.
 o3d.visualization.draw_geometries([mesh], point_show_normal = True)
 
 
-
+o3d.io.write_triangle_mesh("test.obj", mesh)
 
 # o3d.visualization.draw_geometries([pcd], point_show_normal = True)
                                   # zoom=0.9412,
