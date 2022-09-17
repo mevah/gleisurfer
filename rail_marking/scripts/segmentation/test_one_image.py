@@ -210,7 +210,7 @@ def main():
     _processing_time = datetime.datetime.now() - start
 
     new_mask, new_overlay = postprocess_seg(segmentation_handler, mask, image)
-    new_overlay = overlay_detections(model, frame, new_overlay)
+    new_overlay = overlay_detections(model, image, new_overlay)
     cv2.imwrite(args.output_image_path, new_overlay)
 
     print("processing time one frame {}[ms]".format(_processing_time.total_seconds() * 1000 / args.num_test))
