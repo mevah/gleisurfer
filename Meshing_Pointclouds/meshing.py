@@ -20,7 +20,7 @@ o3d.visualization.draw_geometries([mesh], point_show_normal = True)
 
 
 
-radii = [0.05, 0.1, 0.2, 0.4]
+radii = [0.1]
 mesh = o3d.geometry.TriangleMesh.create_from_point_cloud_ball_pivoting(pcd, o3d.utility.DoubleVector(radii))
 o3d.visualization.draw_geometries([mesh], point_show_normal = True)
 
