@@ -1,0 +1,78 @@
+<!DOCTYPE MeshLabDocument>
+<MeshLabProject>
+ <MeshGroup>
+  <MLMesh idInFile="-1" label="train_frame.ply" filename="train_frame.ply" visible="1">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255" boxColor="234 234 234 255" pointSize="3" wireColor="64 64 64 255">100001000000000000000100000001010101010010100000000100111010100100001001</RenderingOption>
+  </MLMesh>
+  <MLMesh idInFile="-1" label="convex_hull_item_blocking.ply" filename="convex_hull_item_blocking.ply" visible="1">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255" boxColor="234 234 234 255" pointSize="3" wireColor="64 64 64 255">100001000000000000000100000001010101000010100000000100111010100100001001</RenderingOption>
+  </MLMesh>
+  <MLMesh idInFile="-1" label="convex_hull_left_rail.ply" filename="convex_hull_left_rail.ply" visible="1">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255" boxColor="234 234 234 255" pointSize="3" wireColor="64 64 64 255">100000000000000000000100000001010101000010100000000100111010100100101001</RenderingOption>
+  </MLMesh>
+  <MLMesh idInFile="-1" label="convex_hull_right_rail.ply" filename="convex_hull_right_rail.ply" visible="1">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255" boxColor="234 234 234 255" pointSize="3" wireColor="64 64 64 255">100001000000000000000100000001010101000010100000000100111010100100001001</RenderingOption>
+  </MLMesh>
+  <MLMesh idInFile="-1" label="left_rail.ply" filename="left_rail.ply" visible="1">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255" boxColor="234 234 234 255" pointSize="3" wireColor="64 64 64 255">000111010000000000000100000001000001000010100000000100111010100000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh idInFile="-1" label="point_cloud_item_blocking.ply" filename="point_cloud_item_blocking.ply" visible="1">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255" boxColor="234 234 234 255" pointSize="3" wireColor="64 64 64 255">000111000000000000000100000001000001000010100000000100111011100000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh idInFile="-1" label="right_rail.ply" filename="right_rail.ply" visible="1">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255" boxColor="234 234 234 255" pointSize="3" wireColor="64 64 64 255">000111010000000000000100000001000001000010100000000100111010100000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh idInFile="-1" label="scene_reconstruction_point_cloud.ply" filename="scene_reconstruction_point_cloud.ply" visible="1">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255" boxColor="234 234 234 255" pointSize="1" wireColor="64 64 64 255">000110010000000000000100000001000001000010100000000100111010100000011101</RenderingOption>
+  </MLMesh>
+ </MeshGroup>
+ <RasterGroup/>
+</MeshLabProject>

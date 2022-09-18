@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import os
 import sys
 
-pcd = o3d.io.read_point_cloud("/Users/michael/Dev/OpenSfM/data/2/undistorted/depthmaps/merged.ply", format='ply')
+pcd = o3d.io.read_point_cloud("/Users/michael/Downloads/low_res_pc.ply", format='ply')
 pcd.normals = o3d.utility.Vector3dVector(np.zeros((1,3)))
 print("Estimate Normals")
 
