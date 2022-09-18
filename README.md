@@ -1,5 +1,7 @@
 # gleisurfer
 
+![banner](gleisurfer.png)
+
 ## What is it ?
 
 Gleisurfer is an iOS app that helps the railway workers get a no-fuss clearance outline and anomalous object detection using augmented reality and machine learning.
